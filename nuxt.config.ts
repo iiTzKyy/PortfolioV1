@@ -14,7 +14,7 @@ export default defineNuxtConfig({
             name: 'Rizky Febiginta Saputra Portfolio Website', 
             content: 'Portfolio Website' }      
         ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },{rel:'canonical', href:'oiki.my.id'}]
       }
     },
     modules:[

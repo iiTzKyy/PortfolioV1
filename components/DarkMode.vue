@@ -6,7 +6,7 @@ const toggleDark = useToggle(isDark);
 
 <template>
   <div>
-    <button @click="toggleDark()" class="">
+    <button @click="toggleDark()">
       <img src="/svg/dark.svg" alt="" class="hidden dark:block" />
       <img src="/svg/light.svg" alt="" class="dark:hidden" />
     </button>

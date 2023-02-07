@@ -13,7 +13,7 @@ const socialMedia = ref([
   {
     picture: "/svg/twitter.svg",
     alt: "twitter logos",
-    link: "",
+    link: "https://twitter.com/",
   },
 ]);
 </script>
