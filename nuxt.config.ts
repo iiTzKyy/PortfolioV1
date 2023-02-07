@@ -18,7 +18,13 @@ export default defineNuxtConfig({
       }
     },
     modules:[
-        '@nuxt/image-edge','@nuxt/content','nuxt-icon','@vueuse/nuxt'
+        '@nuxt/image-edge','@nuxt/content','nuxt-icon','@vueuse/nuxt',
+        ['@nuxtjs/robots',{
+          UserAgent:'Googlebot',
+          Disallow:'',
+          Host:'oiki.my.id',
+          Sitemap:''
+        }],
     ],
     css: ['~/assets/css/main.css'],
     postcss: {
@@ -27,4 +33,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  
 })
