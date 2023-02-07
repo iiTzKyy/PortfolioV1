@@ -54,7 +54,7 @@ const spesiality = ref([
         <div class="text-center lg:text-left">
           <h1 class="lg:text-7xl mt-4 lg:mt-0 text-4xl font-semibold">
             Nice to meet you! <br class="lg:hidden" />
-            I am <span class="underline">Rizky FS.</span>
+            I am <span class="underline">Rizky Febiginta S.</span>
           </h1>
           <p
             class="text-lg lg:my-10 my-4 lg:mx-0 mx-6 text-center lg:text-left"
